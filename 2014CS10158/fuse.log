@@ -1,0 +1,57 @@
+Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/4th Semester/col216/assn3/2014CS10158/datapath_isim_beh.exe -prj D:/4th Semester/col216/assn3/2014CS10158/datapath_beh.prj work.datapath 
+ISim P.49d (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/4th Semester/col216/assn3/2014CS10158/register32.vhd" into library work
+Parsing VHDL file "D:/4th Semester/col216/assn3/2014CS10158/mux16_1.vhd" into library work
+Parsing VHDL file "D:/4th Semester/col216/assn3/2014CS10158/signextn.vhd" into library work
+Parsing VHDL file "D:/4th Semester/col216/assn3/2014CS10158/rfmul.vhd" into library work
+Parsing VHDL file "D:/4th Semester/col216/assn3/2014CS10158/regfile.vhd" into library work
+Parsing VHDL file "D:/4th Semester/col216/assn3/2014CS10158/pcadder.vhd" into library work
+Parsing VHDL file "D:/4th Semester/col216/assn3/2014CS10158/pc.vhd" into library work
+Parsing VHDL file "D:/4th Semester/col216/assn3/2014CS10158/mux2_1_7bit.vhd" into library work
+Parsing VHDL file "D:/4th Semester/col216/assn3/2014CS10158/mux2_1_32bit.vhd" into library work
+Parsing VHDL file "D:/4th Semester/col216/assn3/2014CS10158/mux2_1.vhd" into library work
+Parsing VHDL file "D:/4th Semester/col216/assn3/2014CS10158/mainctrl.vhd" into library work
+Parsing VHDL file "D:/4th Semester/col216/assn3/2014CS10158/instructionmemory.vhd" into library work
+Parsing VHDL file "D:/4th Semester/col216/assn3/2014CS10158/flagregister.vhd" into library work
+Parsing VHDL file "D:/4th Semester/col216/assn3/2014CS10158/datamemory.vhd" into library work
+Parsing VHDL file "D:/4th Semester/col216/assn3/2014CS10158/b_ctrl.vhd" into library work
+Parsing VHDL file "D:/4th Semester/col216/assn3/2014CS10158/barrelshifter.vhd" into library work
+Parsing VHDL file "D:/4th Semester/col216/assn3/2014CS10158/a_ctrl.vhd" into library work
+Parsing VHDL file "D:/4th Semester/col216/assn3/2014CS10158/alu.vhd" into library work
+Parsing VHDL file "D:/4th Semester/col216/assn3/2014CS10158/datapath.vhd" into library work
+WARNING:HDLCompiler:946 - "D:/4th Semester/col216/assn3/2014CS10158/datapath.vhd" Line 361: Actual for formal port in_a_ctrl is neither a static name nor a globally static expression
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 135352 KB
+Fuse CPU Usage: 390 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity instructionmemory [instructionmemory_default]
+Compiling architecture behavioral of entity datamemory [datamemory_default]
+Compiling architecture behavioral of entity register32 [register32_default]
+Compiling architecture behavioral of entity mux16_1 [mux16_1_default]
+Compiling architecture behavioral of entity regfile [regfile_default]
+Compiling architecture behavioral of entity signextn [signextn_default]
+Compiling architecture behavioral of entity alu [alu_default]
+Compiling architecture behavioral of entity mux2_1 [mux2_1_default]
+Compiling architecture behavioral of entity mux2_1_32bit [mux2_1_32bit_default]
+Compiling architecture behavioral of entity flagregister [flagregister_default]
+Compiling architecture behavioral of entity rfmul [rfmul_default]
+Compiling architecture behavioral of entity barrelshifter [barrelshifter_default]
+Compiling architecture behavioral of entity pc [pc_default]
+Compiling architecture behavioral of entity pcadder [pcadder_default]
+Compiling architecture behavioral of entity mux2_1_7bit [mux2_1_7bit_default]
+Compiling architecture behavioral of entity a_ctrl [a_ctrl_default]
+Compiling architecture behavioral of entity b_ctrl [b_ctrl_default]
+Compiling architecture behavioral of entity mainctrl [mainctrl_default]
+Compiling architecture behavioral of entity datapath
+Time Resolution for simulation is 1ps.
+Waiting for 14 sub-compilation(s) to finish...
+Compiled 40 VHDL Units
+Built simulation executable D:/4th Semester/col216/assn3/2014CS10158/datapath_isim_beh.exe
+Fuse Memory Usage: 153656 KB
+Fuse CPU Usage: 982 ms
